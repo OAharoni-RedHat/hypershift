@@ -4,14 +4,14 @@ global:
   hypershift:
     oidc:
 # OIDC bucket information: provide regoin and bucketName
-      region: ''
-      bucketName: ''
+      region: 'us-east-1'
+      bucketName: 'oa-hypershift-test'
       
 # AWS S3 Controller for Kubernetes configuration 
 # Only modify this when creating a new s3 bucket for your deployment
   s3:
     # Should the pattern create the s3 bucket(true), or bring your own (false). 
-    createBucket: false
+    createBucket: true
 
     # Any additional tags to add to a bucket created by the pattern
     additionalTags: 
