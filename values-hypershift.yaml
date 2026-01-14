@@ -33,4 +33,4 @@ global:
 rbac:
   create: true
 # Provide a list of users to add to the clusterrolebinding
-  users: [oaharoni]
+  users: [oaharoni, abeekhof, eduffy, nlevanon, nnevin, sughosh]
